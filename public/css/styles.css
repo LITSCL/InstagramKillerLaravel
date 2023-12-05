@@ -1,0 +1,117 @@
+.avatar {
+	display: block;	
+}
+
+.publicacion {
+	margin-bottom: 20px;	
+}
+
+.contenedor-avatar-header img,
+.contenedor-avatar-publicacion img {
+	width: 40px;
+	border-radius: 900px;
+}
+
+.contenedor-avatar-configuracion img {
+	width: 170px;
+	margin-left: 33.5%;
+}
+
+.contenedor-avatar-publicacion {
+	float:left;
+	margin-right: 15px;
+}
+
+.contenedor-publicacion-datos {
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.publicacion .alias {
+	color: gray;
+}
+
+.publicacion .fecha {
+	color: gray;
+}
+
+.contenedor-publicacion-imagen {
+	width: 100%;
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.contenedor-publicacion-imagen img {
+	width: 100%;
+}
+
+.publicacion .card-body {
+	padding: 0px;
+}
+
+.publicacion .descripcion {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.boton-comentario {
+	margin: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.likes {
+	float: left;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.likes img {
+	width: 20px;
+	padding-top: 3px;
+}
+
+.numero-like {
+	color: gray;
+	font-size: 12px;
+}
+
+.publicacion-detalle .comentarios{
+	padding: 20px;
+}
+
+.perfil-usuario {
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+.perfil-usuario .contenedor-avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 900px;
+	overflow: hidden;
+	float: left;
+}
+
+.perfil-usuario .contenedor-avatar img {
+	width: 100%;
+}
+
+.perfil-usuario .informacion {
+	float: left;
+	padding-left: 30px;
+	padding-top: 40px;
+}
+
+.contenedor-imagen-editar {
+	margin-bottom: 7px;
+}
+
+.contenedor-imagen-editar img {
+	width: 70px;
+}
+
+.boton-buscar {
+	margin-left: 0px;
+	padding-left: 0px;
+}

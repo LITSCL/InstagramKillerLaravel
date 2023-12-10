@@ -18,11 +18,11 @@ class Comentario extends Model
     //2. Creando las relaciones "Many To One" (Muchos a uno), esto permite que el ORM reconozca las relaciones entre las tablas de la base de datos.
     public function getUsuario()
     {
-        return $this->belongsTo(Usuario::class, "usuario_id"); //Este método permite traer un registro �nico de la clave foránea (El usuario que escribió el comentario), recibe 2 par�metros, el primero es el modelo que representa la clave foránea y el segundo el nombre de la clave foránea.
+        return $this->belongsTo(Usuario::class, "usuario_id"); //Este método permite traer un registro único de la clave foránea (El usuario que escribió el comentario), recibe 2 parámetros, el primero es el modelo que representa la clave foránea y el segundo el nombre de la clave foránea.
     }
     
     public function getImagen()
     {
-        return $this->belongsTo(Imagen::class, "imagen_id"); //Este método permite traer un registro �nico de la clave for�nea (La imagen que fue comentada), recibe 2 parámetros, el primero es el modelo que representa la clave foránea y el segundo el nombre de la clave foránea.
+        return $this->belongsTo(Imagen::class, "imagen_id"); //Este método permite traer un registro único de la clave foránea (La imagen que fue comentada), recibe 2 parámetros, el primero es el modelo que representa la clave foránea y el segundo el nombre de la clave foránea.
     }
 }

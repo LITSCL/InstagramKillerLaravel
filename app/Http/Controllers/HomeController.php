@@ -14,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth'); //Este middleware, verifica que exista una sesión activa, de lo contrario se redirije al HOME.
+        $this->middleware("auth"); //Este middleware, verifica que exista una sesión activa, de lo contrario se redirije al HOME.
     }
 
     /**
